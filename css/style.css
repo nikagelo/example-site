@@ -49,10 +49,25 @@ li:last-child {
   justify-content: space-between;
   margin-bottom: 60px;
 }
+
 .txtWrapper p {
   width: 951px;
   margin: 0 auto;
   font-size: 16px;
   line-height: 26px;
   margin-bottom: 18px;
+}
+.seeMoreWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 180px;
+}
+.seeMore {
+  padding: 18px 77px 18px 57px;
+  color: #ffffff;
+  font-size: 16px;
+  background-color: #0020f4;
+  border: none;
+  border-radius: 28px;
 }
