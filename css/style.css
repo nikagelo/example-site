@@ -38,16 +38,13 @@ li:last-child {
 .mainImage {
   margin-top: -172px;
 }
-.imgWrapper h3 {
+.smallerContainer h3 {
   font-size: 28px;
   font-weight: bold;
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.imgWrapper img {
-  margin-right: 25px;
-}
-
-.imgWrapper .lastImg {
-  margin-right: 0;
+.imgWrapper {
+  display: flex;
+  justify-content: space-between;
 }
