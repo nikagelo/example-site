@@ -86,7 +86,7 @@
     </section>
     <!-- Footer -->
     <footer>
-      <div class="container">
+      <div class="container footerWrapper">
         <div class="contactWrapper">
           <div class="info">
             <h4>კონტაქტი</h4>
@@ -120,7 +120,20 @@
             </div>
           </div>
         </div>
-        <div class="form"></div>
+        <div class="form">
+          <form action="">
+            <label for="name">სახელი, გვარი</label>
+            <input type="text" id="name" name="name" />
+
+            <label for="email">ელ.ფოსტა</label>
+            <input type="email" id="email" name="email" />
+
+            <label for="phone">ტელეფონის ნომერი</label>
+            <input type="number" id="phone" name="phone" />
+            <label for="message">შეტყობინება</label>
+            <textarea id="message" name="message"></textarea>
+          </form>
+        </div>
       </div>
     </footer>
   </body>
