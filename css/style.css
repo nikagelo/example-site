@@ -76,3 +76,46 @@ footer {
   background-color: #0a22f4;
   height: 1080px;
 }
+.info h4 {
+  padding-top: 275px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-size: 32px;
+}
+.info p {
+  width: 463px;
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 58px;
+}
+iframe {
+  border-radius: 15px;
+}
+.contact {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+.phone,
+.mail {
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+}
+.phone div,
+.mail div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 50px;
+  border: #0a22f4 solid 1px;
+  width: 70px;
+  height: 70px;
+}
+.phone span,
+.mail span {
+  margin-left: 20px;
+  font-size: 22px;
+  color: #ffffff;
+}
