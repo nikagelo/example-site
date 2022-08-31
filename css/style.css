@@ -71,3 +71,8 @@ li:last-child {
   border: none;
   border-radius: 28px;
 }
+/* Footer Styles */
+footer {
+  background-color: #0a22f4;
+  height: 1080px;
+}
