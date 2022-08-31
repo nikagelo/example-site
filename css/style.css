@@ -47,4 +47,12 @@ li:last-child {
 .imgWrapper {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 60px;
+}
+.txtWrapper p {
+  width: 951px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 18px;
 }
