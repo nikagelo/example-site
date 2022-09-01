@@ -28,11 +28,13 @@ ul li {
   margin-left: 50px;
   color: #ffffff;
 }
-li:last-child {
+.contactButton {
   background-color: #ffffff;
   border-radius: 28px;
   padding: 18px 43px 18px 36px;
   color: #171717;
+  font-size: 16px;
+  font-weight: bold;
 }
 /* Main Section Styles */
 .mainImage {
@@ -141,6 +143,22 @@ textarea {
   height: 60px;
   margin-bottom: 40px;
 }
+.sendWrapper {
+  display: flex;
+  justify-content: right;
+  margin-bottom: 105px;
+}
+.send {
+  color: #171717;
+  background-color: #ffffff;
+  padding: 18px 45px 18px 36px;
+  border-radius: 28px;
+  border: none;
+  width: 151px;
+  height: 55px;
+  font-size: 16px;
+  font-weight: bold;
+}
 .rightsWrapper {
   display: flex;
   justify-content: space-between;
@@ -150,6 +168,8 @@ textarea {
   display: flex;
 }
 .rightsWrapper :first-child {
+  display: flex;
+  align-items: center;
   font-size: 16px;
   color: #ffffff;
 }
